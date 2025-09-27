@@ -9,12 +9,5 @@ theme: minima
 minima:
   skin: auto
   include_css:
-    - /assets/css/custom.css
-navbar-links:
-  Ashikuzzaman: /
-  CV: /cv
-  Research: /research
-  Projects: /projects
-  Experience: /experience
-  Extra Activities: /extra-activities
-  Contact: /contact
+    - /assets/css/sidebar.css
+    - /assets/css/custom-cards.css
