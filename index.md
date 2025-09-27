@@ -5,6 +5,7 @@ title: "Home"
 
 <div class="section-card">
   <h1>Welcome!</h1>
+  ![Profile Picture](profile.jpg)
   <p>
     I am Ashikuzzaman, an aspiring researcher and developer passionate about technology, innovation, and making an impact.
   </p>
