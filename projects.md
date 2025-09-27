@@ -1,20 +1,22 @@
 ---
-layout: page
+layout: default
 title: "Projects"
 ---
 
-# Projects
-
-## Project One
-
-- ![Project One Screenshot](project1.jpg)
-- A brief description of Project One.
-- [GitHub Repository](https://github.com/yourusername/project1)
-
-## Project Two
-
-- ![Project Two Screenshot](project2.jpg)
-- A brief description of Project Two.
-- [GitHub Repository](https://github.com/yourusername/project2)
-
-<!-- Add more projects as needed -->
+<div class="section-card">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <div class="project-card">
+      <img src="/project1.jpg" alt="Project One Screenshot">
+      <h3>Project One</h3>
+      <p>A brief description of Project One.</p>
+      <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project-card">
+      <img src="/project2.jpg" alt="Project Two Screenshot">
+      <h3>Project Two</h3>
+      <p>A brief description of Project Two.</p>
+      <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+</div>
