@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Extra Activities"
 ---
 
-# Extra Activities
-
-- Volunteered at Tech4Good
-- Robotics Club Leader
-
-<!-- Add more activities as needed -->
+<div class="section-card">
+  <h2>Extra Activities</h2>
+  <ul>
+    <li>Volunteered at Tech4Good</li>
+    <li>Robotics Club Leader</li>
+  </ul>
+</div>
