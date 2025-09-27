@@ -11,8 +11,7 @@ minima:
   include_css:
     - /assets/css/custom.css
 navbar-links:
-  Home: /
-  About: /about
+  Ashikuzzaman: /
   CV: /cv
   Research: /research
   Projects: /projects
