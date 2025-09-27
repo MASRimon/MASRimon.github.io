@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ '/assets/css/sidebar.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/custom-cards.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/custom-navbar.css' | relative_url }}">
   {% if site.minima.include_css %}
     {% for css in site.minima.include_css %}
       <link rel="stylesheet" href="{{ css | relative_url }}">
@@ -13,9 +12,9 @@
   {% endif %}
 </head>
 <body>
-  {% include sidebar.html %}
-  <div class="main-content">
+  {% include top-navbar.html %}
+  <main>
     {{ content }}
-  </div>
+  </main>
 </body>
 </html>
