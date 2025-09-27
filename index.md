@@ -11,9 +11,6 @@ Welcome! I am Ashikuzzaman, an aspiring researcher and developer passionate abou
 
 ---
 
-## About Me
-
-Write a brief intro about yourself, your skills, and what drives you.
 
 ---
 
