@@ -3,20 +3,12 @@ layout: default
 title: "Home"
 ---
 
-# Ashikuzzaman
-
-![Profile Picture](profile.jpg)
-
-Welcome! I am Ashikuzzaman, an aspiring researcher and developer passionate about technology, innovation, and making an impact.
-
----
-
-
----
-
-- [CV](cv.md)
-- [Research](research.md)
-- [Projects](projects.md)
-- [Experience](experience.md)
-- [Extra Activities](extra-activities.md)
-- [Contact](contact.md)
+<div class="section-card">
+  <h1>Welcome!</h1>
+  <p>
+    I am Ashikuzzaman, an aspiring researcher and developer passionate about technology, innovation, and making an impact.
+  </p>
+  <ul>
+    <li><strong>Skills:</strong> HTML, CSS, JavaScript, Python, Java, React, Node.js, Research Writing, Leadership</li>
+  </ul>
+</div>
