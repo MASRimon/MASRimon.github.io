@@ -1,13 +1,14 @@
 ---
-layout: page
+layout: default
 title: "Research"
 ---
 
-# Research
-
-## Deep Learning for XYZ
-
-Published at ABC Conference 2024.  
-[Read Paper](#)
-
-<!-- Add more research entries as needed -->
+<div class="section-card">
+  <h2>Research</h2>
+  <ul>
+    <li>
+      <strong>Deep Learning for XYZ</strong><br>
+      Published at ABC Conference 2024. <a href="#" target="_blank">Read Paper</a>
+    </li>
+  </ul>
+</div>
