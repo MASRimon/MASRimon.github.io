@@ -1,0 +1,78 @@
+.top-navbar {
+  width: 100%;
+  background: #222;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.top-navbar .container {
+  max-width: 1200px; margin: 0 auto; display: flex; align-items: center; padding: 0 1.5em;
+}
+.top-navbar .logo {
+  font-size: 1.5em; font-weight: bold; color: #4ecdc4; text-decoration: none; margin-right: 2em;
+}
+.top-nav-links {
+  display: flex; gap: 1.2em; list-style: none; margin: 0; padding: 0;
+}
+.top-nav-links li { }
+.top-nav-links a {
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  padding: 0.9em 1.1em;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.top-nav-links a.active, .top-nav-links a:hover {
+  background: #4ecdc4;
+  color: #222;
+}
+@media (max-width: 700px) {
+  .top-navbar .container { flex-direction: column; align-items: stretch; }
+  .top-navbar .logo { margin-bottom: .5em; }
+  .top-nav-links { flex-wrap: wrap; gap: .3em; }
+  .top-nav-links a { font-size: 1em; padding: 0.5em 0.7em; }
+}
+
+/* Home page image */
+.profile-img-home {
+  display: block;
+  margin: 2rem auto 1.5rem auto;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  border: 5px solid #4ecdc4;
+  transition: box-shadow 0.3s, border-color 0.3s, transform 0.3s;
+}
+.profile-img-home:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.22);
+  border-color: #ff9800;
+  transform: scale(1.05) rotate(-2deg);
+}
+
+/* Card style for sections */
+.section-card {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.07);
+  padding: 2rem 1.7rem;
+  margin: 2em auto;
+  max-width: 900px;
+  transition: box-shadow 0.2s, background 0.2s;
+}
+.section-card:hover {
+  box-shadow: 0 8px 40px rgba(76,205,196,0.15);
+  background: #f1fcfc;
+}
+h1, h2, h3 { color: #4ecdc4; font-weight: bold; }
+a {
+  color: #4ecdc4;
+  text-decoration: underline dotted;
+  transition: color 0.2s;
+}
+a:hover { color: #ffb300; }
+ul { margin-bottom: 1.2em; }
