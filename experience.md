@@ -1,14 +1,18 @@
 ---
-layout: page
+layout: default
 title: "Experience"
 ---
 
-# Experience
-
-## Software Engineer Intern  
-ABC Tech Solutions, Summer 2023
-
-- Worked on frontend development using React.
-- Contributed to backend APIs.
-
-<!-- Add more experiences as needed -->
+<div class="section-card">
+  <h2>Experience</h2>
+  <ul>
+    <li>
+      <strong>Software Engineer Intern</strong><br>
+      ABC Tech Solutions, Summer 2023
+      <ul>
+        <li>Worked on frontend development using React.</li>
+        <li>Contributed to backend APIs.</li>
+      </ul>
+    </li>
+  </ul>
+</div>
